@@ -9,3 +9,4 @@
 9. autoprefixer, postcss and tailwindcss = library to use tailwindcss more easily
 10. eslint = linting library to keep code clean
 11. npx hardhat node
+12. npx hardhat run scripts/deploy.js --network localhost

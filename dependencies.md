@@ -10,3 +10,4 @@
 10. eslint = linting library to keep code clean
 11. npx hardhat node
 12. npx hardhat run scripts/deploy.js --network localhost
+13. Metmask will be in localhost

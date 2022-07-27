@@ -22,6 +22,21 @@ module.exports = {
         'file-reject': '#ff1744',
         'overlay-black': 'rgba(0, 0, 0, 0.8)',
       },
+      'animation': {
+        'text': 'text 5s ease infinite',
+      },
+      'keyframes': {
+        'text': {
+          '0%, 100%': {
+            'background-size': '200% 200%',
+            'background-position': 'left center'
+          },
+          '50%': {
+            'background-size': '200% 200%',
+            'background-position': 'right center'
+          }
+        },
+      },
       width: {
         215: '215px',
         357: '357px',

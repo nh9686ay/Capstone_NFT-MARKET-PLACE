@@ -1,9 +1,9 @@
-import { useEffect, useState, useContext } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import { useRouter } from 'next/router';
 import axios from 'axios';
 
 import { NFTContext } from '../context/NFTContext';
-import { Button, Input, Loader } from '../components';
+import { Input, Loader, Button } from '../components';
 
 const ResellNFT = () => {
   const { createSale, isLoadingNFT } = useContext(NFTContext);

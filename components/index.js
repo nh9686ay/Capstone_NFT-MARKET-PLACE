@@ -6,7 +6,9 @@ import NFTCard from './NFTCard';
 import Loader from './Loader';
 import SearchBar from './SearchBar';
 import Button from './Button';
-import Banner from './Banner';
+import BannerCarousel from './BannerCarousel';
 import Input from './Input';
+import StarParticle from './StarParticle';
+import ParticleCollide from './ParticleCollide';
 
-export { Navbar, Footer, Modal, CreatorCard, NFTCard, Loader, SearchBar, Button, Banner, Input };
+export { Navbar, Footer, Modal, BannerCarousel, CreatorCard, NFTCard, Loader, SearchBar, Button, Input, StarParticle, ParticleCollide };

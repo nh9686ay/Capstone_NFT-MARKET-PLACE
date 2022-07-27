@@ -1,4 +1,4 @@
-import { useEffect, useState, useContext } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 
 import { NFTContext } from '../context/NFTContext';
 import { Loader, NFTCard } from '../components';

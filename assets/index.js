@@ -4,7 +4,7 @@ import logo from './logo.png';
 import search from './Search.png';
 import tick from './tick.png';
 import cross from './cross.png';
-import logo02 from './logo02.png';
+import logotwo from './logotwo.png';
 import menu from './menu.png';
 import discord from './discord.png';
 import instagram from './instagram.png';
@@ -37,6 +37,10 @@ import left from './left.png';
 import headerbg from './headerbg.png';
 import loader from './loader.gif';
 import arrow from './arrow.png';
+import Hotcollection from './Hotcollection.png';
+import kangpunch from './kangpunch.jpeg';
+import land from './land.jpg';
+import nftband from './nftband.jpg';
 
 export default {
   heartOutline,
@@ -45,7 +49,11 @@ export default {
   search,
   tick,
   cross,
-  logo02,
+  logotwo,
+  Hotcollection,
+  kangpunch,
+  land,
+  nftband,
   menu,
   discord,
   instagram,

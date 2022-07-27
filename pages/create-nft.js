@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback, useContext } from 'react';
+import React, { useState, useMemo, useCallback, useContext } from 'react';
 import { create as ipfsHttpClient } from 'ipfs-http-client';
 import { useRouter } from 'next/router';
 import { useDropzone } from 'react-dropzone';
@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { useTheme } from 'next-themes';
 
 import { NFTContext } from '../context/NFTContext';
-import { Button, Input, Loader } from '../components';
+import { Button, Loader, Input } from '../components';
 import images from '../assets';
 
 const client = ipfsHttpClient('https://ipfs.infura.io:5001/api/v0');
